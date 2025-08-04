@@ -29,15 +29,25 @@ This project is a **microcontroller-interfaced Attendance Management System** de
 
 ## 📂 File Structure
 ├── header.h # Common header file
+
 ├── sync.c # Syncs database and CSV into memory
+
 ├── save.c # Saves user and attendance data into files
+
 ├── admin_fun.c # Add, Edit, Delete, Print user functionality
+
 ├── my_AtoF.c # Custom ASCII-to-Float converter
+
 ├── in_out_time.c # IN/OUT time logic and update
+
 ├── project_main.c # Main program loop with UART and signal handling
+
 ├── database.txt # User data storage
+
 ├── attendance.csv # Daily attendance record
+
 ├── Makefile # Build instructions
+
 └── README.md # Project documentation
 
 ## 📌 Sample Output (CSV)
