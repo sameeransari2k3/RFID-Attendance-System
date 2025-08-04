@@ -42,7 +42,9 @@ This project is a **microcontroller-interfaced Attendance Management System** de
 
 ## 📌 Sample Output (CSV)
 ID,Name,Date,Working_hour,IN,OUT
+
 101,Sameer,29-07-2025,8.00,09:00,17:00
+
 102,Gousia,29-07-2025,7.50,09:15,16:45
 
 
