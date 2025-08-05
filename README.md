@@ -29,24 +29,35 @@ This project is a **microcontroller-interfaced Attendance Management System** de
 
 ## 📂 File Structure
 ├── header.h # Common definitions and struct declarations
-│
+
 ├── sync.c # Loads users and previous attendance from files
+
 ├── save.c # Saves attendance and user data to files
+
 ├── admin_fun.c # Admin functions: Add, Edit, Delete, View
+
 ├── my_AtoF.c # Custom ASCII to Float converter
+
 ├── in_out_time.c # IN and OUT time logic + working hours calc
+
 ├── project_main.c # Main program: UART receive, IN/OUT logic, signal handler
-│
+
 ├── lcd.c # LCD display driver for ARM (LPC2148)
+
 ├── rtc.c # Real-time clock (RTC) configuration
+
 ├── uart0.c # UART0 init and transmit logic (PC communication)
+
 ├── uart1.c # UART1 for RFID reader serial communication
-├── extint.c # External interrupt logic (optional for RFID)
-│
+
+├── extint.c # External interrupt logic
+
 ├── database.txt # Stores registered users
+
 ├── attendance.csv # Daily attendance data (IN/OUT, working hours)
-│
+
 ├── Makefile # Compilation instructions for all host-side source files
+
 └── README.md # Project overview and documentation
 
 ## 📌 Sample Output (CSV)
